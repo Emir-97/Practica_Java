@@ -10,10 +10,13 @@ package Tarea3;
  */
 public class Tarea3Main {
     
-    Connection1 con = new Connection1();
-    con.establecerConnection();
-    con.insertarDatos();
-    con.actualizarDatos();
-    con.consultarDatos();
-    con.eliminarDato();
+    public static void main(String[] args){
+    
+        Connection1 con = new Connection1();
+        con.establecerConnection();
+        con.insertarDatos();
+        con.actualizarDatos();
+        con.consultarDatos();
+        con.eliminarDato();
+    }
 }
